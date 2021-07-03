@@ -13,14 +13,18 @@ var Arr = [
   'circle-border180'
 ];
 var svg = document.getElementById('svg');
-for (var index = 1; index <= 3; index++) {
-  (function(index) {
-    setTimeout(function() {
-      svg.classList.forEach(list => {
-        svg.classList.remove(list);
-      });
-      svg.classList.add(Arr[index]);
-    }, index * 1000);
-  })(index);
+setInterval(() => {
+  Roate();
+}, 4000);
+function Roate() {
+  for (var index = 1; index <= 3; index++) {
+    (function(index) {
+      setTimeout(function() {
+        svg.classList.forEach(list => {
+          svg.classList.remove(list);
+        });
+        svg.classList.add(Arr[index]);
+      }, index * 1000);
+    })(index);
+  }
 }
-
