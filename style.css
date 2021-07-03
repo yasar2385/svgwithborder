@@ -1,0 +1,9 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+.circle-border {
+  transition: stroke-dashoffset 0.1s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
