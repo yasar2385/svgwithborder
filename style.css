@@ -7,3 +7,15 @@ h2 {
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
 }
+.circle-border45 {
+  transform: rotate(-45deg);
+}
+.circle-border90 {
+  transform: rotate(-90deg);
+}
+.circle-border135 {
+  transform: rotate(-135deg);
+}
+.circle-border180 {
+  transform: rotate(-180deg);
+}
