@@ -8,14 +8,22 @@ h2 {
   transform-origin: 50% 50%;
 }
 .circle-border45 {
+  transition: stroke-dashoffset 0.1s;
   transform: rotate(-45deg);
+  transform-origin: 50% 50%;
 }
 .circle-border90 {
+  transition: stroke-dashoffset 0.1s;
   transform: rotate(-90deg);
+  transform-origin: 50% 50%;
 }
 .circle-border135 {
+  transition: stroke-dashoffset 0.1s;
   transform: rotate(-135deg);
+  transform-origin: 50% 50%;
 }
 .circle-border180 {
+  transition: stroke-dashoffset 0.1s;
   transform: rotate(-180deg);
+  transform-origin: 50% 50%;
 }
